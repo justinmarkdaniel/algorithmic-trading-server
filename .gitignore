@@ -1,0 +1,40 @@
+# env
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+secrets.json
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+venv/
+.venv/
+
+# Bot runtime outputs (never commit live trading data)
+logs/
+*.log
+*.jsonl
+trades.csv
+nohup.out
+
+# Data files
+*.parquet
+*.csv.gz
+*.npz
+!server/models/*.npz   # bundled models are intentional
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp

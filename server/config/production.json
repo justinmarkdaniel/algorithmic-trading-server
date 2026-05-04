@@ -1,0 +1,10 @@
+{
+    "symbol": "BTC/USDT:USDT",
+    "leverage": 10,
+    "tp_pct": 0.005,
+    "sl_pct": 0.005,
+    "data_limit": 500,
+    "warmup_bars": 1500,
+    "time_barrier_candles": 12,
+    "version": "0.1.0"
+}
