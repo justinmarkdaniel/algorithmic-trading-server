@@ -1,4 +1,4 @@
-# algorithmic-trading-server
+# Algorthmic AI trading server on Python and FastAPI
 
 A high-frequency trading server in Python. FastAPI for introspection and trade
 management; a daemon-thread tick loop on the 5-minute boundary executes against
